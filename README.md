@@ -34,7 +34,7 @@ The final dashboard includes:
 - **Used on:** Retrieve total revenue for specific coffee types or regions.
 - **Benefits:** Simplifies data retrieval compared to traditional VLOOKUP
 - **Example:** ```excel
-  =XLOOKUP(C6,customers!$A$1:$A$1001,customers!B5:B1005,,0)
+=XLOOKUP(C6, customers!$A$1:$A$1001, customers!B5:B1005, , 0)
 
 #### **INDEX Formula**
 - Combined with other functions like MATCH for flexible data extraction.
