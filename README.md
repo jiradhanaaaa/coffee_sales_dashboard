@@ -50,8 +50,7 @@ The final dashboard includes:
 #### **Combining Formulas : XLOOKUP and IF**
 - Used for conditional lookups and dynamic data retrieval.
 - **Example:** Retrieve revenue for specific coffee types only if the region exceeds a revenue threshold.
-  ```excel
-  =IF(XLOOKUP(C12,customers!$A$1:$A$1001,customers!$C11:$C1011,,0)=0,"",XLOOKUP(C12,customers!$A$1:$A$1001,customers!$C11:$C1011,,0))
+ `=IF(XLOOKUP(C12,customers!$A$1:$A$1001,customers!$C11:$C1011,,0)=0,"",XLOOKUP(C12,customers!$A$1:$A$1001,customers!$C11:$C1011,,0))`
 
 
 #### **PivotTables and PivotCharts**
