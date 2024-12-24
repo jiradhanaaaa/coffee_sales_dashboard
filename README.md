@@ -46,6 +46,13 @@ The final dashboard includes:
 - **Used on:** Changing the shortened words when cleaning the data.
 - **Example:** `=IF(J14="M","Medium",IF(J14="L","Light",IF(J14="D","Dark","")))`
 
+#### **Combining Formulas : XLOOKUP and IF**
+- Used for conditional lookups and dynamic data retrieval.
+- **Example:** Retrieve revenue for specific coffee types only if the region exceeds a revenue threshold.
+  ```excel
+  =IF(XLOOKUP(C12,customers!$A$1:$A$1001,customers!$C11:$C1011,,0)=0,"",XLOOKUP(C12,customers!$A$1:$A$1001,customers!$C11:$C1011,,0))
+
+
 #### **PivotTables and PivotCharts**
 - Summarized trends, revenue distribution, and performance by regions, coffee types, and sizes.
 - Visualized data trends and patterns effectively.
