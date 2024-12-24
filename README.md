@@ -47,7 +47,8 @@ The final dashboard includes:
 - Applied for conditional categorization.
 - **Used on:** Changing the shortened words when cleaning the data.
 - **Example:** ```excel
-  =IF(J14="M","Medium",IF(J14="L","Light",IF(J14="D","Dark","")))
+ =IF(J14="M","Medium",IF(J14="L","Light",IF(J14="D","Dark","")))
+ 
 
 #### **Combining Formulas : XLOOKUP and IF**
 - Used for conditional lookups and dynamic data retrieval.
