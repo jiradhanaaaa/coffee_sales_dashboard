@@ -33,21 +33,18 @@ The final dashboard includes:
 - Used to retrieve specific data points from different datasets dynamically.
 - **Used on:** Retrieve total revenue for specific coffee types or regions.
 - **Benefits:** Simplifies data retrieval compared to traditional VLOOKUP
-- **Example:** ```excel
-=XLOOKUP(C6, customers!$A$1:$A$1001, customers!B5:B1005, , 0)
+- **Example:** `=XLOOKUP(C6, customers!$A$1:$A$1001, customers!B5:B1005, , 0)`
 
 #### **INDEX Formula**
 - Combined with other functions like MATCH for flexible data extraction.
 - **Used on:** Locate sales figures based on selected rows (e.g., month) and columns (e.g., coffee size).
 - **Benefits:** Enables precise control over data retrieval.
-- **Example:** ``` excel
-  =INDEX(products!$A$1:$G$49,MATCH(orders!$D7,products!$A$1:$A$49,0),MATCH(orders!L$1,products!$A$1:$G$1,0))
+- **Example:** `=INDEX(products!$A$1:$G$49,MATCH(orders!$D7,products!$A$1:$A$49,0),MATCH(orders!L$1,products!$A$1:$G$1,0))`
 
 #### **IF Formula**
 - Applied for conditional categorization.
 - **Used on:** Changing the shortened words when cleaning the data.
-- **Example:** ```excel
- =IF(J14="M","Medium",IF(J14="L","Light",IF(J14="D","Dark","")))
+- **Example:** `=IF(J14="M","Medium",IF(J14="L","Light",IF(J14="D","Dark","")))`
  
 
 #### **Combining Formulas : XLOOKUP and IF**
