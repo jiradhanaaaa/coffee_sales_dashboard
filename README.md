@@ -29,18 +29,18 @@ The final dashboard includes:
 
 ### 4. Analysis Techniques
 #### **XLOOKUP Formula**
-- Used to retrieve specific data points from large datasets dynamically.
-- **Example:** Retrieve total revenue for specific coffee types or regions.
-- **Benefits:** Simplifies data retrieval compared to traditional VLOOKUP or HLOOKUP.
+- Used to retrieve specific data points from different datasets dynamically.
+- **Used on:** Retrieve total revenue for specific coffee types or regions.
+- **Benefits:** Simplifies data retrieval compared to traditional VLOOKUP
 
 #### **INDEX Formula**
 - Combined with other functions like MATCH for flexible data extraction.
-- **Example:** Locate sales figures based on selected rows (e.g., month) and columns (e.g., coffee size).
+- **Used on:** Locate sales figures based on selected rows (e.g., month) and columns (e.g., coffee size).
 - **Benefits:** Enables precise control over data retrieval.
 
 #### **IF Formula**
 - Applied for conditional categorization.
-- **Example:** Identify regions with revenue exceeding $5,000 as high performers.
+- **Used on:** Changing the shortened words when cleaning the data.
 
 #### **PivotTables and PivotCharts**
 - Summarized trends, revenue distribution, and performance by regions, coffee types, and sizes.
@@ -53,3 +53,7 @@ The final dashboard includes:
 - **Seasonal Trends:** Coffee sales peak during winter and holiday seasons.
 - **Top Products:** Arabica and Excelsa coffee types generate the highest revenue.
 - **Regional Performance:** The Unit
+
+## Acknowledgement 
+- Data and tutorial by Mo Chen on [Youtube](https://www.youtube.com/watch?v=m13o5aqeCbM).
+
