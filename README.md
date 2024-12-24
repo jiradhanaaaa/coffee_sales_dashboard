@@ -2,7 +2,7 @@
 
 ## Project Overview
 ![prev](https://github.com/user-attachments/assets/546bd988-bf6f-4ef2-ae70-bd3e2255f8d4)
-This project is a comprehensive analysis of coffee sales data using Excel, focusing on data cleaning, analysis, and visualization. The dataset, sourced from Mo Chen's GitHub, contains 1,000 columns of uncleaned data across three interconnected sheets. Following Mo Chen's tutorial, I developed an interactive dashboard to provide actionable insights into coffee sales trends.
+This project is a comprehensive analysis of coffee sales data using Excel, focusing on data cleaning, analysis, and visualization. The dataset, sourced from Mo Chen's GitHub, contains 1,000 columns of uncleaned data across three interconnected sheets. Following Mo Chen's tutorial, with adding new insights in it, I developed an interactive dashboard to provide actionable insights into coffee sales trends.
 
 The final dashboard includes:
 - Filters for dynamic data exploration.
@@ -33,15 +33,18 @@ The final dashboard includes:
 - Used to retrieve specific data points from different datasets dynamically.
 - **Used on:** Retrieve total revenue for specific coffee types or regions.
 - **Benefits:** Simplifies data retrieval compared to traditional VLOOKUP
+- **Example:** `=XLOOKUP(C6,customers!$A$1:$A$1001,customers!B5:B1005,,0)`
 
 #### **INDEX Formula**
 - Combined with other functions like MATCH for flexible data extraction.
 - **Used on:** Locate sales figures based on selected rows (e.g., month) and columns (e.g., coffee size).
 - **Benefits:** Enables precise control over data retrieval.
+- **Example:** `=INDEX(products!$A$1:$G$49,MATCH(orders!$D7,products!$A$1:$A$49,0),MATCH(orders!L$1,products!$A$1:$G$1,0))`
 
 #### **IF Formula**
 - Applied for conditional categorization.
 - **Used on:** Changing the shortened words when cleaning the data.
+- **Example:** `=IF(J14="M","Medium",IF(J14="L","Light",IF(J14="D","Dark","")))`
 
 #### **PivotTables and PivotCharts**
 - Summarized trends, revenue distribution, and performance by regions, coffee types, and sizes.
