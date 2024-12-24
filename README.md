@@ -5,9 +5,12 @@
 This project is a comprehensive analysis of coffee sales data using Excel, focusing on data cleaning, analysis, and visualization. The dataset, sourced from Mo Chen's GitHub, contains 1,000 columns of uncleaned data across three interconnected sheets. Following Mo Chen's tutorial, with adding new insights in it, I developed an interactive dashboard to provide actionable insights into coffee sales trends.
 
 The final dashboard includes:
-- Filters for dynamic data exploration.
-- Charts to visualize revenue and sales by country.
-- Slicers for detailed analysis by roast type, coffee type, size, and loyalty card usage.
+- **Filters** for dynamic data exploration.
+- **Charts** to visualize revenue and sales by country.
+- **Slicers** for detailed analysis by roast type, coffee type, size, and loyalty card usage.
+- **Interactive** time-based filtering to select specific sales months, dynamically updating the charts accordingly.
+- **Top country insights** showcasing the country with the highest sales for the selected period.
+- **Detailed product breakdown** allowing users to pick specific coffee types and sizes, with real-time updates reflected in the charts.
 
 ## Objectives
 - Clean and structure raw coffee sales data.
