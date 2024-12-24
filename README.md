@@ -1,6 +1,7 @@
 # Coffee Sales Data Analysis
 
 ## Project Overview
+![prev](https://github.com/user-attachments/assets/546bd988-bf6f-4ef2-ae70-bd3e2255f8d4)
 This project is a comprehensive analysis of coffee sales data using Excel, focusing on data cleaning, analysis, and visualization. The dataset, sourced from Mo Chen's GitHub, contains 1,000 columns of uncleaned data across three interconnected sheets. Following Mo Chen's tutorial, I developed an interactive dashboard to provide actionable insights into coffee sales trends.
 
 The final dashboard includes:
