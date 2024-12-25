@@ -8,7 +8,7 @@ The final dashboard includes:
 - **Filters** for dynamic data exploration.
 - **Charts** to visualize revenue and sales by country.
 - **Slicers** for detailed analysis by roast type, coffee type, size, and loyalty card usage.
-- **Interactive** time-based filtering to select specific sales months, dynamically updating the charts accordingly.
+- **Interactive time-based filtering** to select specific sales months, dynamically updating the charts accordingly.
 - **Top country insights** showcasing the country with the highest sales for the selected period.
 - **Detailed product breakdown** allowing users to pick specific coffee types and sizes, with real-time updates reflected in the charts.
 
